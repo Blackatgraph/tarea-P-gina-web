@@ -1,0 +1,26 @@
+*{
+    margin: 30px;
+}
+
+div {
+    border: black 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+div div {
+    border: none;
+    background-color: lightblue;
+}
+
+body {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}

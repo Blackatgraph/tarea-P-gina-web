@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 2px 1px 0px black;
+
+}
+
+h2 {
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 2px 1px 0px black;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/Imagenes/Fondo\ metálico.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+}
+
+ol {
+    list-style-type: circle;
+    overflow: hidden;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+table,
+tr,
+th,
+td {
+    border: 3px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin-left: 120px;
+    border-radius: 15px;
+    border: 3px solid #6b1401;
+}
+
+.imagen2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: #6b1401;
+}
+
+.lista {
+    background-color: #6b1401;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.contenedor-lista {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px;
+}
+
+.input {
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dadada;
+    padding: 0px 30px;
+    margin-left: 200px;
+    border-radius: 15px;
+    border: 3px solid #6b1401;
+
+}

@@ -1,0 +1,40 @@
+*{
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.body{
+    background-image: url(HTMLimagen.png);
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #34bd1c;
+    color: #0d0c0c;
+}
+
+.p{
+    color: whitesmoke;
+    font-family: 'Segoe UI', sans-serif;
+}
